@@ -1,5 +1,5 @@
 import { bindObjectToItself } from "./decorators.ts";
-import { Constructor } from "./types.d.ts";
+import type { Constructor } from "./types.d.ts";
 
 export interface IHierarchy {
 	[className: typeof Function.prototype.name]: IHierarchy | {};
