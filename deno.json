@@ -2,7 +2,7 @@
   "name": "@oop/utils",
   "version": "0.0.0-1",
   "license": "AGPL-3.0-or-later",
-  "exports": "./main.ts",
+  "exports": "./hierarchy.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
